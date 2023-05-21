@@ -71,7 +71,7 @@ function doWithTwo(input1, input2) {
 	let x = +input1.value;
 	let y = +input2.value;
 
-	show3.innerHTML = 'Сумма чисел: ' + (x + y) + ', Разность чисел: ' + (x / y) + ', Произведение чисел: ' + (x * y);
+	show3.innerHTML = 'Сумма чисел: ' + (x + y) + ', Разность чисел: ' + (x - y) + ', Произведение чисел: ' + (x * y);
 }
 
 
